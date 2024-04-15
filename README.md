@@ -1,38 +1,34 @@
-# create-svelte
+# Movie Search
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is a simple web application built with Svelte that allows users to search for movies. It utilizes the OMDb API to fetch movie data based on user input and display relevant information.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Search:** Users can search for movies by entering keywords in the search bar.
+- **Movie Details:** Clicking on a movie displays detailed information.
+- **Favorite:** Clicking on the favorite button will tag the movie as favorite and displayed by default in the homepage on future visits.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Technologies Used
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Svelte:** A reactive JavaScript framework used for building the user interface.
+- **OMDb API:** An API for retrieving movie data including title, year, plot, and ratings.
 
-## Developing
+## Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone the repository:
 
-```bash
+git clone https://github.com/ritaferreirasilva/movie-search.git
+
+2. Navigate to the project directory:
+
+cd movie-search
+
+3. Install dependencies:
+
+npm install
+
+4. Start the development server:
+
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+5. Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
